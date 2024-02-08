@@ -25,5 +25,5 @@ Magento 2 admin notifications can be very annoying. This cron will run every hou
 
 ## Copyright
 
- - developed by [ShopWhizzy.com](https://shopwhizzy.com/)
+ - developed by [ShopWhizzy.com](https://shopwhizzy.com/magento)
 
