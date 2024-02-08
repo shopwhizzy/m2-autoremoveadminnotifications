@@ -1,11 +1,8 @@
-# Magento 2 Module MgtWizards Auto-Remove Admin Notifications Messages
+# Magento 2 Module MgtWizards Auto-Remove Admin Notifications Messages (by shopwhizzy.com)
 
  - [Main Functionalities](#markdown-header-main-functionalities)
  - [Installation](#markdown-header-installation)
- - [Configuration](#markdown-header-configuration)
  - [Specifications](#markdown-header-specifications)
- - [Attributes](#markdown-header-attributes)
-
 
 ## Main Functionalities
 Magento 2 admin notifications can be very annoying. This cron will run every hour and remove all unread messages.
