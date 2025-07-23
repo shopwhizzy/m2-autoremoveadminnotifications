@@ -1,4 +1,4 @@
-# Magento 2 Module MgtWizards Auto-Remove Admin Notifications Messages (by shopwhizzy.com)
+# Magento 2 Module ShopWhizzy Auto-Remove Admin Notifications Messages (by shopwhizzy.com)
 
  - [Main Functionalities](#markdown-header-main-functionalities)
  - [Installation](#markdown-header-installation)
@@ -13,15 +13,25 @@ Magento 2 admin notifications can be very annoying. This cron will run every hou
 
 ### Type 1: Zip file
 
- - Unzip the zip file in `app/code/MgtWizards/AutoRemoveAdminNotifications`
- - Enable the module by running `php bin/magento module:enable MgtWizards_AutoRemoveAdminNotifications`
+ - Unzip the zip file in `app/code/ShopWhizzy/AutoRemoveAdminNotifications`
+ - Enable the module by running `php bin/magento module:enable ShopWhizzy_AutoRemoveAdminNotifications`
  - Apply database updates by running `php bin/magento setup:upgrade`\*
  - Flush the cache by running `php bin/magento cache:flush`
+
+ ### Type 2: Composer
+
+- Install using [Composer](https://getcomposer.org).
+
+```
+composer require shopwhizzy/magento2-export-reviews
+php bin/magento module:enable ShopWhizzy_ExportReviews
+php bin/magento setup:upgrade
+```
 
 ## Specifications
 
  - Cronjob
-	- mgtwizards_autoremoveadminnotifications_removeadminmessages
+	- shopwhizzy_autoremoveadminnotifications_removeadminmessages
 
 ## Copyright
 

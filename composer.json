@@ -1,6 +1,6 @@
 {
-    "name": "mgtwizards/module-autoremoveadminnotifications",
-    "description": "MgtWizards_AutoRemoveAdminNotifications",
+    "name": "shopwhizzy/module-autoremoveadminnotifications",
+    "description": "ShopWhizzy_AutoRemoveAdminNotifications",
     "type": "magento2-module",
     "license": "GPL-3.0",
     "authors": [
@@ -16,7 +16,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "MgtWizards\\AutoRemoveAdminNotifications\\": ""
+            "ShopWhizzy\\AutoRemoveAdminNotifications\\": ""
         }
     }
 }
