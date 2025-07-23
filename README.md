@@ -23,8 +23,8 @@ Magento 2 admin notifications can be very annoying. This cron will run every hou
 - Install using [Composer](https://getcomposer.org).
 
 ```
-composer require shopwhizzy/magento2-export-reviews
-php bin/magento module:enable ShopWhizzy_ExportReviews
+composer require shopwhizzy/module-autoremoveadminnotifications
+php bin/magento module:enable ShopWhizzy_AutoRemoveAdminNotifications
 php bin/magento setup:upgrade
 ```
 
