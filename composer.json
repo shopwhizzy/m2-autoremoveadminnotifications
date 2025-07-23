@@ -3,7 +3,7 @@
     "description": "ShopWhizzy_AutoRemoveAdminNotifications",
     "type": "magento2-module",
     "license": "GPL-3.0",
-    "prefer-stable": true,
+    "version": "1.0.0",
     "authors": [
         {
             "name": "ShopWhizzy",
@@ -11,7 +11,13 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.4",
+        "magento/framework": "*",
+        "magento/module-backend": "*",
+        "magento/module-admin-notification": "*"
+    },
     "autoload": {
         "files": [
             "registration.php"
