@@ -3,6 +3,7 @@
     "description": "ShopWhizzy_AutoRemoveAdminNotifications",
     "type": "magento2-module",
     "license": "GPL-3.0",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "ShopWhizzy",
